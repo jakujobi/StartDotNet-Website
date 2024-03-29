@@ -1,12 +1,12 @@
-baseURL: http://something-fresh.org/
+baseURL: #
 languageCode: en-us
-title: Hugo Fresh Theme
+title: StartDotNet
 
 module:
   # uncomment line below for local development of module
   # workspace: hugo.work
-  imports:
-    path: github.com/StefMa/hugo-fresh
+  # imports:
+  #   path: github.com/StefMa/hugo-fresh
 
 
 googleAnalytics: # Put in your tracking code without quotes like this: UA-XXX for universal tracking or G-XXX analytics v4 tracking
@@ -28,7 +28,7 @@ params:
   # preloader: false
   navbarlogo:
   # Logo (from static/images/logos/___)
-    image: logos/fresh.svg
+    image: logos/StartDotNet.jpeg
     link: /
     # Default width/height. Uncomment if you need to change
     # width: 112
@@ -38,7 +38,7 @@ params:
     sizes: [400,600]
   hero:
     # Main hero title
-    title: Manage. Deploy.
+    title: Manage. Deploy
     # Hero subtitle (optional)
     subtitle: Lorem ipsum sit dolor amet is dummy text used by the typography industry
     # Button text
